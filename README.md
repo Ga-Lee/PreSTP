@@ -2,7 +2,7 @@
 
 # PreSTP: Training-Free Predictive Spatio-Temporal Token Pruning for Few-Step Autoregressive Video Diffusion
 
-[![Paper on arXiv](https://img.shields.io/badge/Paper-arXiv%3A2611.07551-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2611.07551)
+[![Paper on arXiv](https://img.shields.io/badge/Paper-arXiv%3A2611.07551-B31B1B?style=flat&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2611.07551)
 
 [🔍 Overview](#overview) · [🎬 Results](#results) · [⚙️ Installation](#installation) · [🚀 Quick Start](#quick-start) · [📖 Citation](#citation)
 
