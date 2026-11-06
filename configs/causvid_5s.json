@@ -1,0 +1,8 @@
+{
+  "preset": "5s", "latent_frames": 21, "fps": 16,
+  "spatial_threshold": 0.97, "temporal_threshold": 0.997,
+  "reuse_gate": 0.50, "reanchor_period": 3,
+  "attention_window": 21, "chunk_frames": 3, "context_noise": 0,
+  "timestep_shift": 8.0, "denoising_steps": [1000, 750, 500, 250],
+  "prune_context": true, "reuse_mask": true
+}

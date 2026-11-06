@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "prestp-causvid"
+version = "0.1.0"
+description = "Predictive spatio-temporal token pruning for CausVid inference"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "torch>=2.5,<2.7", "torchvision>=0.20,<0.22",
+  "diffusers==0.31.0", "transformers>=4.49,<4.52",
+  "accelerate>=1.1,<2", "einops>=0.8,<0.9", "numpy>=1.24,<2",
+  "ftfy>=6,<7", "regex", "sentencepiece>=0.2,<0.3",
+  "av==13.1.0", "safetensors>=0.4", "huggingface_hub>=0.26,<1"
+]
+
+[project.optional-dependencies]
+eval = ["lpips==0.1.4"]
+
+[tool.setuptools]
+license-files = ["licenses/*"]
+
+[tool.setuptools.packages.find]
+include = ["prestp*"]
